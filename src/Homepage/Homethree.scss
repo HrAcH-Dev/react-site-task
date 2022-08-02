@@ -1,0 +1,777 @@
+.Home-Homethree {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    &-bigbox {
+        width: 92%;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+
+
+        &-text {
+            width: 48%;
+            text-align: center;
+
+            h2 {
+                font-size: 1.5em;
+                line-height: 2.1em;
+                font-weight: 700;
+                letter-spacing: 0.05em;
+                margin: 0.5em 0;
+            }
+
+            p {
+                font-size: 0.75em;
+                font-weight: 400;
+                line-height: 1em;
+                color: #6F6F6F;
+                margin: 0;
+                padding-bottom: 2.5em;
+            }
+        }
+
+        &-filterbox {
+            width: 88%;
+            margin-bottom: 38px;
+            display: flex;
+            justify-content: space-evenly;
+            
+            button {
+                width: 16%;
+                padding: 0.5em 0;
+                white-space: nowrap;
+                border: none;
+
+                color: #1A1A1A;
+                background-color: #EBEBEB;
+            }
+
+            .trans {
+                background-color: transparent;
+            }
+
+            .orange-btn {
+                background-color: #FFDB11;
+            }
+        }
+
+        &-flex {
+            width: 100%;
+            height: 880px; 
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+
+            &-flex1 {
+                display: flex;
+                flex-direction: column;
+                justify-content: flex-start;
+                border: 1px solid #EBEBEB;
+                width: 25%;
+                height: 65%;
+                justify-self: center;
+            }
+
+
+            &-items1 {
+                width: 100%;
+                height: 14%;
+                position: relative;
+                
+
+                // img {
+                //     margin-left: 15px;
+                //     margin-top: 15px;
+                // }
+                .lefticon {
+                    width: 14%;
+                    position: absolute;
+                    top: 29%;
+                    left: 4%;
+                }
+                span {
+                    width: 52%;
+                    position: absolute;
+                    top: 26%;
+                    left: 23%;
+                }
+                p {
+                    font-weight: 600;
+                    margin: 0;
+                    // padding: 0 0 25px 20px;
+                    font-size: 0.7em;
+                    line-height: 16px;
+                    text-transform: uppercase;
+                    display: inline-block;
+                }
+
+                .Klor {
+                    width: 13%;
+                    position: absolute;
+                    top: 27%;
+                    left: 78%;
+                }
+
+                .Znak {
+                    width: 2%;
+                    position: absolute;
+                    top: 37%;
+                    left: 83.5%;
+                }
+            }
+
+            &-flex2 {
+                display: flex;
+                flex-direction: column;
+                justify-content: flex-start;
+                border: 1px solid #EBEBEB;
+                width: 25%;
+                height: 90.4%;
+                justify-self: center;
+                margin-bottom:5.1%;
+                align-self: flex-end;
+                
+                &-items2 {
+                    height: 12%;
+                    width: 100%;
+                    position: relative;
+
+                    .klor {
+                        position: absolute;
+                        top: 34%;
+                        left: 44%;
+                    }
+
+                    .done {
+                        position: absolute;
+                        top: 42%;
+                        left: 47%;
+                    }
+                }
+
+                &-block {
+                    height: 31%;
+                    position: relative;
+                    
+                    .klordexin1 {
+                        position: absolute;
+                        top: 82%;
+                        left: 43%;
+                    }
+
+                    .done1 {
+                        position: absolute;
+                        top: 85%;
+                        left: 46%;
+                    }
+
+                    span {
+                        padding: 7px 12px 4px 12px;
+                        background-color: #FFDB11;
+                        position: absolute;
+
+                        p {
+                            font-weight: 600;
+                            font-size: 10px;
+                            margin: 0;
+                            line-height: 1.4em;
+                            color: #000;
+                        }
+                    }
+
+                    .flex-box {
+                        width: 50%;
+                        text-align: center;
+                        margin: 35px auto;
+
+                        .p-box {
+                            font-weight: 400;
+                            font-size: 20px;
+                            line-height: 27px;
+
+                            
+
+                            sup {
+                                font-size: 10px;
+                            }
+                        }
+
+                        .p-box2 {
+                            font-weight: 700;
+                            font-size: 12px;
+                            line-height: 16px;
+                        }
+                    }
+                }
+
+                &-block2 {
+                   height: 25.5%;
+                   text-align: center;
+                   position: relative;
+
+                   .klordexin2 {
+                        position: absolute;
+                        top: 8%;
+                        left: 45%;
+                    }
+
+                   .done2 {
+                        position: absolute;
+                        top: 12%;
+                        left: 48%;
+                    }
+
+                    .btn-block {
+                        margin-top: 90px;
+                        padding: 8px 35px 8px 35px;
+                        border: 3px solid #000;
+                        background-color: #fff;
+                        font-size: 14px;
+                        font-weight: 600;
+
+                        img {
+                            padding-right: 15px;
+                        }
+                    }
+                }
+
+            }
+
+            &-flex3 {
+                width: 25%;
+                height: 91.8%;
+                align-self: flex-start;
+                border: 1px solid #EBEBEB;
+                display: flex;
+                background-color: #FFDB11;
+                flex-direction: column;
+                margin-bottom:5.1%;
+                justify-content: flex-start;
+
+                &-items3 {
+                    height: 14.8%;
+                    width: 100%;
+                    position: relative;
+
+                    .klordexin3 {
+                        position: absolute;
+                        top: 37%;
+                        left: 42%;
+                    }
+                    
+                   .done3 {
+                        position: absolute;
+                        top: 45%;
+                        left: 45%;
+                    }
+                    
+
+                    .klor {
+                        position: absolute;
+                        top: 34%;
+                        left: 44%;
+                    }
+
+                    .done {
+                        position: absolute;
+                        top: 42%;
+                        left: 47%;
+                    }
+                }
+
+                &-block {
+                    height: 40%;
+                    position: relative;
+
+                    .klordexin1 {
+                        position: absolute;
+                        top: 82%;
+                        left: 43%;
+                    }
+
+                    .done1 {
+                        position: absolute;
+                        top: 85%;
+                        left: 46%;
+                    }
+
+                    span {
+                        padding: 7px 12px 4px 12px;
+                        background-color: #FFDB11;
+                        position: absolute;
+
+                        p {
+                            font-weight: 600;
+                            font-size: 10px;
+                            margin: 0;
+                            line-height: 1.4em;
+                            color: #000;
+                        }
+                    }
+
+                    .flex-box {
+                        width: 50%;
+                        text-align: center;
+                        margin: 35px auto;
+
+                        .p-box {
+                            font-weight: 400;
+                            font-size: 20px;
+                            line-height: 27px;
+
+                            
+
+                            sup {
+                                font-size: 10px;
+                            }
+                        }
+
+                        .p-box2 {
+                            font-weight: 700;
+                            font-size: 12px;
+                            line-height: 16px;
+                        }
+                    }
+                }
+
+                &-block3 {
+                   height: 31%;
+                   text-align: center;
+                   position: relative;
+
+                   .klordexin2 {
+                        position: absolute;
+                        top: 8%;
+                        left: 45%;
+                    }
+
+                    .done2 {
+                        position: absolute;
+                        top: 12%;
+                        left: 48%;
+                    }
+
+                    .btn-block {
+                        margin-top: 90px;
+                        padding: 8px 35px 8px 35px;
+                        border: 3px solid #000;
+                        background-color: #fff;
+                        font-size: 14px;
+                        font-weight: 600;
+
+                        img {
+                            padding-right: 15px;
+                        }
+                    }
+
+                    .black-btn {
+                        background-color: #000;
+                        color: #fff;
+                    }
+                }
+                
+            }
+
+            &-flex4 {
+                display: flex;
+                flex-direction: column;
+                justify-content: flex-start;
+                border: 1px solid #EBEBEB;
+                width: 25%;
+                height: 90.4%;
+                justify-self: center;
+                margin-bottom:5.1%;
+                align-self: flex-end;
+
+                &-items4 {
+                    height: 12%;
+                    width: 100%;
+                    position: relative;
+                   
+                    .klor {
+                        position: absolute;
+                        top: 34%;
+                        left: 44%;
+                    }
+
+                    .done {
+                        position: absolute;
+                        top: 42%;
+                        left: 47%;
+                    }
+                }
+
+                &-block {
+                    height: 31%;
+                    position: relative;
+
+                    .klordexin1 {
+                        position: absolute;
+                        top: 82%;
+                        left: 43%;
+                    }
+
+                    .done1 {
+                        position: absolute;
+                        top: 85%;
+                        left: 46%;
+                    }
+
+                    span {
+                        padding: 7px 12px 4px 12px;
+                        background-color: #FFDB11;
+                        position: absolute;
+
+                        p {
+                            font-weight: 600;
+                            font-size: 10px;
+                            margin: 0;
+                            line-height: 1.4em;
+                            color: #000;
+                        }
+                    }
+                    .flex-box {
+                        width: 50%;
+                        text-align: center;
+                        margin: 35px auto;
+
+                        .p-box {
+                            font-weight: 400;
+                            font-size: 20px;
+                            line-height: 27px;
+
+                            
+
+                            sup {
+                                font-size: 10px;
+                            }
+                        }
+
+                        .p-box2 {
+                            font-weight: 700;
+                            font-size: 12px;
+                            line-height: 16px;
+                        }
+                    }
+                }
+
+                &-block4 {
+                   height: 25.5%;
+                   text-align: center;
+                   position: relative;
+                   
+                   .klordexin1 {
+                        position: absolute;
+                        top: 82%;
+                        left: 43%;
+                    }
+
+                    .done1 {
+                        position: absolute;
+                        top: 85%;
+                        left: 46%;
+                    }
+                    .klordexin2 {
+                        position: absolute;
+                        top: 8%;
+                        left: 45%;
+                    }
+
+                    .done2 {
+                        position: absolute;
+                        top: 12%;
+                        left: 48%;
+                    }
+
+                    .btn-block {
+                        margin-top: 90px;
+                        padding: 8px 35px 8px 35px;
+                        border: 3px solid #000;
+                        background-color: #fff;
+                        font-size: 14px;
+                        font-weight: 600;
+
+                        img {
+                            padding-right: 15px;
+                        }
+                    }
+
+                span {
+                    padding: 7px 12px 4px 12px;
+                    background-color: #FFDB11;
+                    position: absolute;
+
+                    p {
+                        font-weight: 600;
+                        font-size: 10px;
+                        margin: 0;
+                        line-height: 1.4em;
+                        color: #000;
+                    }
+                }
+                }
+            }
+
+            &-flex5 {
+                display: flex;
+                flex-direction: column;
+                justify-content: flex-start;
+                border: 1px solid #EBEBEB;
+                width: 25%;
+                height: 90.4%;
+                justify-self: center;
+                margin-bottom:5.1%;
+                align-self: flex-end;
+
+                &-items5 {
+                    height: 12%;
+                    width: 100%;
+                    position: relative;
+                    
+                    .klor {
+                        position: absolute;
+                        top: 34%;
+                        left: 44%;
+                    }
+
+                    .done {
+                        position: absolute;
+                        top: 42%;
+                        left: 47%;
+                    }       
+
+                }
+
+                &-block {
+                   height: 31%;
+                   position: relative;
+
+                   .klordexin1 {
+                    position: absolute;
+                    top: 82%;
+                    left: 43%;
+                }
+
+                .done1 {
+                    position: absolute;
+                    top: 85%;
+                    left: 46%;
+                }
+
+                span {
+                    padding: 7px 12px 4px 12px;
+                    background-color: #FFDB11;
+                    position: absolute;
+
+                    p {
+                        font-weight: 600;
+                        font-size: 10px;
+                        margin: 0;
+                        line-height: 1.4em;
+                        color: #000;
+                    }
+                }
+                .flex-box {
+                    width: 50%;
+                    text-align: center;
+                    margin: 35px auto;
+
+                    .p-box {
+                        font-weight: 400;
+                        font-size: 20px;
+                        line-height: 27px;
+
+                        
+
+                        sup {
+                            font-size: 10px;
+                        }
+                    }
+
+                    .p-box2 {
+                        font-weight: 700;
+                        font-size: 12px;
+                        line-height: 16px;
+                    }
+                }
+                }
+
+                &-block5 {
+                   height: 25.5%;
+                   text-align: center;
+                   position: relative;
+
+                   .klordexin1 {
+                    position: absolute;
+                    top: 82%;
+                    left: 43%;
+                }
+
+                .done1 {
+                    position: absolute;
+                    top: 85%;
+                    left: 46%;
+                }
+                .klordexin2 {
+                    position: absolute;
+                    top: 8%;
+                    left: 45%;
+                }
+
+                .done2 {
+                    position: absolute;
+                    top: 12%;
+                    left: 48%;
+                }
+
+                .btn-block {
+                    margin-top: 90px;
+                    padding: 8px 35px 8px 35px;
+                    border: 3px solid #000;
+                    background-color: #fff;
+                    font-size: 14px;
+                    font-weight: 600;
+
+                    img {
+                        padding-right: 15px;
+                    }
+                }
+
+            span {
+                padding: 7px 12px 4px 12px;
+                background-color: #FFDB11;
+                position: absolute;
+
+                p {
+                    font-weight: 600;
+                    font-size: 10px;
+                    margin: 0;
+                    line-height: 1.4em;
+                    color: #000;
+                }
+            }
+                }
+            }
+
+            &-flex6 {
+                display: flex;
+                flex-direction: column;
+                justify-content: flex-start;
+                border: 1px solid #EBEBEB;
+                width: 25%;
+                height: 90.4%;
+                justify-self: center;
+                margin-bottom:5.1%;
+                align-self: flex-end;
+
+                &-items6 {
+                    height: 12%;
+                    width: 100%;
+                    position: relative;
+
+                    .klor {
+                        position: absolute;
+                        top: 34%;
+                        left: 44%;
+                    }
+
+                    .done {
+                        position: absolute;
+                        top: 42%;
+                        left: 47%;
+                    }       
+                }
+
+                &-block {
+                   height: 31%;
+                   position: relative;
+                  
+                   .klordexin1 {
+                   position: absolute;
+                   top: 82%;
+                   left: 43%;
+                }
+
+                .done1 {
+                    position: absolute;
+                    top: 85%;
+                    left: 46%;
+                }
+                
+                span {
+                    padding: 7px 12px 4px 12px;
+                    background-color: #FFDB11;
+                    position: absolute;
+
+                    p {
+                        font-weight: 600;
+                        font-size: 10px;
+                        margin: 0;
+                        line-height: 1.4em;
+                        color: #000;
+                    }
+                }
+                .flex-box {
+                    width: 50%;
+                    text-align: center;
+                    margin: 35px auto;
+
+                    .p-box {
+                        font-weight: 400;
+                        font-size: 20px;
+                        line-height: 27px;
+
+                        
+
+                        sup {
+                            font-size: 10px;
+                        }
+                    }
+
+                    .p-box2 {
+                        font-weight: 700;
+                        font-size: 12px;
+                        line-height: 16px;
+                    }
+                }
+                }
+
+                &-block6 {
+                   height: 25.5%;
+                   text-align: center;
+                   position: relative;
+
+                   .klordexin2 {
+                    position: absolute;
+                    top: 8%;
+                    left: 45%;
+                }
+
+                .done2 {
+                    position: absolute;
+                    top: 12%;
+                    left: 48%;
+                }
+
+                .btn-block {
+                    margin-top: 90px;
+                    padding: 8px 35px 8px 35px;
+                    border: 3px solid #000;
+                    background-color: #fff;
+                    font-size: 14px;
+                    font-weight: 600;
+
+                    img {
+                        padding-right: 15px;
+                    }
+                }
+                }
+            }
+        }
+
+       
+    }
+}

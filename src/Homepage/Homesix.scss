@@ -1,0 +1,100 @@
+.Homesix {
+    width: 100%;
+    padding-top: 20px;
+    background: linear-gradient(360deg, #ffffff 0%, rgba(255, 255, 255, 0) 100%), #F4F4F4;
+    
+    .text-container {
+        width: 20%;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    h1 {
+        font-weight: 700;
+        font-size: 25px;
+        line-height: 34px;
+        letter-spacing: 0.05em;
+        text-transform: uppercase;
+    }
+
+    &-block {
+        width: 94%;
+        margin: 50px auto;
+        // display: flex;
+        // justify-content: center;
+        // gap: 50px;
+    
+
+        &-box {
+            width: 450px;
+            padding: 40px 0 204px 0;
+            position: relative;
+
+            &-block {
+                width: 14%;
+                display: inline-block;
+
+                img {
+                    border-radius: 50%;
+                }
+            }
+
+            &-block2 {
+                width: 81%;
+                margin-right: 0;
+                position: absolute;
+                right: 0;
+                top: 13%;
+                align-self: flex-start;
+
+                b {
+                    font-weight: 700;
+                    font-size: 12px;
+                    line-height: 16px;
+                    margin-bottom: 3px;
+                    color: #1A1A1A;
+                }
+
+                p {
+                    color: #6F6F6F;
+
+                    a {
+                        font-weight: 600;
+                        font-size: 14px;
+                        line-height: 18px;
+                        padding-left: 6px;
+                        color: #1A1A1A;
+                    }
+                }
+
+                .text {
+                    font-weight: 400;
+                    font-size: 12px;
+                    line-height: 16px;
+                    margin-top: 0;
+                    margin-bottom: 5px;
+                }
+
+                .text2 {
+                    font-weight: 400;
+                    font-size: 12px;
+                    line-height: 16px;
+                }
+
+                img {
+                    margin-top: 0;
+                    display: inline-block;
+                }
+            }
+        }
+    }
+}
+
+
+.slick-dots li button:before {
+    content: "■";
+    list-style-type: square;
+    font-size: 25px;
+    color: #FFDB11;
+    opacity: 1;
+}

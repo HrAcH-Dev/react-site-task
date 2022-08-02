@@ -1,0 +1,267 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200;300;400;600;800&display=swap');
+
+
+.Navbar {
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    z-index: 10101010;
+    box-sizing: border-box;
+    background-color: rgba(0,0,0,0.2);
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    font-family: 'Nunito Sans';
+
+    &-mobile {
+        display: none;
+    }
+
+    &-header {
+        width: 70%;
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+
+        &-block {
+            width: 93%;
+            display: flex;
+            align-items: center;
+            padding-top: 30px;
+            justify-content: space-between;
+
+            ul {
+                width: 300px;
+                padding: 0;
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+
+                li {
+                    font-size: 13px;
+                    display: inline-block;
+
+                    a {
+                        text-decoration: none;
+                        color: #fff;
+                    }
+                }
+            }
+
+            &-box {
+                display: flex;
+                padding-right: 40px;
+                align-items: center;
+                justify-content: center;
+                
+
+                span {
+                    height: 17px;
+                    display: flex;
+                    margin-left: 20px;
+                    justify-content: space-between;
+
+                    img {
+                        color: red;
+                        padding-right: 15px;
+                        padding-top: 3px;
+                    }
+
+                    .img-1 {
+                        width: 9px;
+                        height: 12px;
+                    }
+
+                    .img-2 {
+                        width: 18px;
+                        height: 15px;
+                    }
+
+                    li {
+                        min-width: 50px;
+                        color: #fff;
+                        font-size: 11px;
+                        display: inline-block;
+                        padding-top: 3px;
+                    }
+                }
+
+                .span-active {
+                    display: none;
+                }
+
+                .nav-menu {
+                    display: none;
+                }
+
+                .nav-menu-items {
+                    display: block;
+                }
+
+                
+
+                button {
+                    width: 135px;
+                    border: none;
+                    font-size: 14px;
+                    margin-left: 20px;
+                    padding: 15px;
+                    cursor: pointer;
+                    background-color: #FFDB11;
+                }
+            }
+        }
+    }
+
+    @media (max-width: 1130px) {
+        &-header {
+            width: 76%;
+        }
+    }
+
+    @media (max-width: 1020px) {
+        .Navbar-header {
+            display: flex;
+            justify-content: flex-end;
+
+            .Navbar-header-block {
+                padding-top: 17px;
+                display: flex;
+                justify-content: flex-end;
+                min-width: 30%;
+                
+    
+                ul {
+                    display: none;
+    
+                }
+    
+                &-box {
+                    min-width:35%;
+                    display: flex;
+                    padding-right: 0;
+                    justify-content: space-evenly;
+                    padding-right: 15px;
+
+                    span {
+                        .img-1 {
+                            width: 15px;
+                            height: 20px;
+                            padding: 0;
+                        }
+    
+                        .img-2 {
+                            width: 24px;
+                            margin-left: 15px;
+                            height: 20px;
+                            padding: 0;
+                        }
+
+                        li {
+                            display: none;
+                        }
+                    }
+
+                    .span-active {
+                        font-size: 19px;
+                        display: inline;
+                        overflow: visible;
+                        padding-left: 15px;
+                        color: #fff;
+                    }
+
+                    .menu-bars {
+                        margin-left: 2rem;
+                        font-size: 2rem;
+                        background: none;
+                        margin: 0;
+                    }
+
+                    .menu-bars.active {
+                        color: #FFDB11
+                    }
+
+
+                    .nav-menu {
+                        display: block;
+                        background-color: #FFDB11;
+                        width: 50%;
+                        position: fixed;
+                        top: 0;
+                        bottom: 0;
+                        z-index: 1000000000000;
+                        min-height: 641px;
+                        right: -100%;
+                        transition: 850ms;
+                    }
+
+                    .nav-menu-items {
+                        display: block;
+                        width: 100%;
+                    }
+
+
+                    .nav-menu.active {
+                        right: 0;
+                        transition: 350ms;
+                    }
+
+                    .nav-text {
+                        justify-content: start;
+                        align-items: center;
+                        padding: 8px 0px 8px 16px;
+                        list-style: none;
+                        height: 60px;
+                        display: block;
+                    }
+
+                    .nav-text a {
+                        text-decoration: none;
+                        color: #000;
+                        font-weight: 600;
+                        font-size: 18px;
+                        width: 95%;
+                        height: 100%;
+                        display: flex;
+                        align-items: center;
+                        padding: 0 16px;
+                    }
+
+
+
+                    .navbar-toogle {
+                        width: 100%;
+                        height: 80px;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+
+                    }
+
+                    span {
+                        margin-left: 16px;
+                    }
+    
+    
+                    button {
+                        display: none;
+                    }
+                }
+            }
+        }
+    }
+
+    @media (max-width: 700px) and (min-width: 300px) {
+        &-header {
+            width: 100%;
+
+            &-block {
+                width: 100%;
+            }
+        }
+    }
+    
+}

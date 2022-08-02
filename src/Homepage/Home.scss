@@ -1,0 +1,137 @@
+.Home {
+    font-family: 'Nunito Sans';
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    .Homes {
+        min-width: 100%;
+        padding: 0;
+        position: relative;
+
+    
+        &-img {
+            min-width: 100%;
+            width: 100%;
+            min-height: 780px;
+            object-fit: cover;
+        }
+    
+        &::after {
+            content: '';
+            position: absolute;
+            inset: 0 0 0 0;
+            background-color: rgba(0, 0, 0, 0.366);
+        }
+    
+        &-container {
+            width: 57%;
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%,-50%);
+            z-index: 999;
+    
+            &-text {
+                text-align: center;
+    
+                h1 {
+                    letter-spacing: 0.05em;
+                    font-weight: 700;
+                    line-height: 48px;
+                    text-transform: uppercase;
+                    color: #fff;
+                }
+            }
+    
+            &-btn {
+               width: 54%;
+               margin: 0 auto;
+               display: flex;
+               flex-wrap: wrap;
+               justify-content: space-evenly;
+    
+               button {
+                width: 130px;
+                padding: 11px;
+                font-weight: 600;
+                font-size: 13px;
+                line-height: 18px;
+                cursor: pointer;
+               }
+    
+               .btn-1 {
+                background-color: transparent;
+    
+                border: 2px solid #fff;
+                color: #fff;
+                transition: 0.3s;
+    
+                &:hover {
+                    background-color: #fff;
+                    color: #000;
+                    transition: 0.3s;
+                }
+               }
+               
+               .btn-2 {
+                background-color: transparent;
+                border: 2px solid #fff;
+                color: #fff;
+               }
+    
+               .btn-3 {
+                background-color: #FFDB11;
+                border: none;
+               }
+            }
+        }
+    
+        
+    
+        @media (max-width: 1460px) {
+            &-container {
+                 &-btn {
+                    width: 30%;
+    
+                    button {
+                        margin-bottom: 10px;
+                    }
+                 } 
+            }
+        }
+    
+        @media (max-width: 887px) {
+            &-container {
+    
+                &-btn {
+                    width: 50%;
+    
+                    button {
+                        margin-bottom: 10px;
+                    }
+                }
+            }
+        }
+    
+        @media (max-width: 400px) {
+            &-container {
+                width: 95%;
+    
+                &-text {
+                    width: 100%;
+                }
+    
+                &-btn {
+                    width: 50%;
+    
+                    button {
+                        margin-bottom: 10px;
+                    }
+                }
+            }
+        }
+    }
+    
+}
+

@@ -1,0 +1,18 @@
+.Homeseven {
+    width: 100%;
+    
+    &-container {
+        width: 20%;
+        margin: 0 auto;
+        text-align: center;
+
+        h1 {
+            font-weight: 700;
+            font-size: 25px;
+            line-height: 34px;
+            letter-spacing: 0.05em;
+            text-transform: uppercase;
+            padding: 20px 0 20px 0;
+        }
+    }
+}

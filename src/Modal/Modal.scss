@@ -1,0 +1,126 @@
+.modal {
+    height: 100vh;
+    width: 100%;
+    background-color: rgba(0,0,0,0.4);
+    position: fixed;
+    left: 0;
+    top: 0;
+    font-family: "Nunito Sans";
+    z-index: 15151515;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transition: 0.5s;
+    pointer-events: none;
+
+    .modal__content {
+        padding: 20px;
+		border-radius: 12px;
+		background-color: #fff;
+		transform: scale(0.5);
+		transition: 0.4s all;
+		width: 450px;
+		height: 400px;
+		z-index: 99999;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+    }
+
+    .modal__content.active {
+        transform: scale(1);
+    }
+
+    .Modal-content-forms {
+        width: 98%;
+        height: 98%;
+        text-align: center;
+
+
+        form {
+            width: 96%;
+            margin: 50px auto;
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+
+            ::placeholder {
+                font-size: 1.1em;
+            }
+
+            .form-box {
+                width: 345px;
+                height: 164px;
+
+                .errors {
+                    width: 88px;
+                    font-size: 14px;
+                    margin: 0;
+                    color: rgb(209, 0, 0)
+                }
+
+                input[type="text"] {
+                    width: 97%;
+                    padding: 5px;
+                    height: 40px;
+                    border: 2px solid rgb(129, 129, 129);
+                    border-radius: 5px;
+                    background-color: #eaeaea;
+                    margin-bottom: 9px;
+                    outline: none;
+                }
+                .eye-box {
+                    position: relative;
+
+                    input[type="password"] {
+                        width: 97%;
+                        padding: 5px;
+                        height: 40px;
+                        border: 2px solid rgb(129, 129, 129);
+                        border-radius: 5px;
+                        background-color: #eaeaea;
+                        margin-bottom: 9px;
+                        outline: none;
+                    }
+                    span {
+                        font-size: 25px;
+                        position: absolute;
+                        right: 10px;
+                        top: 15px;
+                        cursor: pointer;
+                    }
+                }
+                
+
+                
+            }
+
+            input[type="submit"] {
+                width: 81%;
+                height: 45px;
+                background-color: #FFDB11;
+                color: #000;
+                border-radius: 8px;
+                font-weight: 500;
+                font-size: 17px;
+                border: none;
+                cursor: pointer;
+                transition: 0.4s;
+
+                &:hover {
+                    box-shadow: 0 0 20px 6px #FFDB11;
+                    background-color: #FFDB11;
+                    transition: 0.4s;
+                }
+            }
+        }
+    }
+}
+
+
+
+.modal.active {
+    opacity: 1;
+    pointer-events: all;
+}
